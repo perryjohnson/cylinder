@@ -24,8 +24,7 @@ boundaryField
     inlet
     {
         type            uniformFixedValue;
-        uniformValue    constant (0.000662 0 0);  // Re = 40
-        // Re = UD/nu = (0.000662*1)/0.000016525 = 40
+        uniformValue    constant (1 0 0);
     }
 
     outlet
