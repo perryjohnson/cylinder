@@ -17,47 +17,47 @@ FoamFile
 
 6
 (
-    frontAndBack
+    inlet
     {
-        type            empty;
-        physicalType    empty;
-        nFaces          5856;
-        startFace       11584;
-    }
-    bottom
-    {
-        type            symmetryPlane;
-        physicalType    symmetryPlane;
-        nFaces          76;
-        startFace       17440;
+        type            patch;
+        physicalType    patch;
+        nFaces          19;
+        startFace       44734;
     }
     outlet
     {
         type            patch;
         physicalType    patch;
-        nFaces          36;
-        startFace       17516;
-    }
-    top
-    {
-        type            symmetryPlane;
-        physicalType    symmetryPlane;
-        nFaces          76;
-        startFace       17552;
-    }
-    inlet
-    {
-        type            patch;
-        physicalType    patch;
-        nFaces          36;
-        startFace       17628;
+        nFaces          69;
+        startFace       44792;
     }
     cylinder
     {
         type            wall;
         physicalType    wall;
-        nFaces          32;
-        startFace       17664;
+        nFaces          22;
+        startFace       44861;
+    }
+    bottom
+    {
+        type            symmetryPlane;
+        physicalType    symmetryPlane;
+        nFaces          39;
+        startFace       44753;
+    }
+    top
+    {
+        type            symmetryPlane;
+        physicalType    symmetryPlane;
+        nFaces          39;
+        startFace       44883;
+    }
+    frontAndBack
+    {
+        type            empty;
+        physicalType    empty;
+        nFaces          25616;
+        startFace       19118;
     }
 )
 
